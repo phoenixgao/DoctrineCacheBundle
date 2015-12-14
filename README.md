@@ -405,6 +405,9 @@ $aclCache = $this->container->get('security.acl.cache');
     - password      - redis password
     - timeout       - redis connection timeout
     - database      - redis database selection (integer)
+#### predis
+    - parameters - array of parameters: {'schema': 'tcp', 'host': '10.0.0.1', 'port': '6379'}
+    - options    - array of predis client options
 #### riak
     - connection_id                 - Riak\Connection service id
     - bucket_id                     - Riak\Bucket service id
